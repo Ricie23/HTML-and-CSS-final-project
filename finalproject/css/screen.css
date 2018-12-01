@@ -1,0 +1,197 @@
+
+body{
+	
+    font-family: 'Noto Serif KR', sans-serif;
+    font-size: 20px;
+}
+
+h1{
+    font-family: 'Noto Serif KR', sans-serif;
+    font-size: 20pt;
+    color: rgb(112, 112, 112);
+	text-shadow: rgb(0, 0, 0);
+	padding-left: 30%
+}
+h2{
+    font-family: 'Noto Serif KR', sans-serif;
+    color: rgb(56, 56, 56);
+    font-size: 22pt;
+    text-shadow: rgb(224, 224, 224);
+    font-style: italic;
+    padding-left: 5%;
+    letter-spacing: 4pt;
+    opacity: 5%;
+}
+h3{
+    font-style: italic;
+    font-size: 20pt;
+    letter-spacing: 8pt;
+}
+p{
+    margin-left: 20pt;
+}
+
+nav a {
+    position: absolute; /* Position them relative to the browser window */
+   left: -1%;
+    transition: 0.3s; /* Add transition on hover */
+    padding: 1%; /* 15px padding */
+    width: 8%; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Increase font size */
+    color: rgb(56, 56, 56); /* White text color */
+	border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+}
+
+nav a:hover {
+    left: 3%; /* On mouse-over, make the elements appear as they should */
+}
+
+#home{
+    top: 20px;
+    background-color: rgb(112, 112, 112);
+}
+
+#about {
+    top: 80px;
+    background-color: rgb(112, 112, 112);
+}
+
+#contact {
+    top: 140px;
+    background-color: rgb(112, 112, 112);
+}
+
+#services {
+    top: 200px;
+    background-color: rgb(112, 112, 112);
+}
+
+    footer{
+		
+		background-color:rgba(36, 36, 36, 0.116);
+        color: grey;
+        max-width:95%;
+		max-height: 2%; 
+		
+	}
+.icon-bar{
+	background-color:rgba(36, 36, 36, 0.116);
+	color: grey;
+	max-width:95%;
+	max-height: 2%; 
+	font-weight: 900;
+}
+.icon-bar a:hover {
+	background-color:gray;
+	color: black;
+
+}
+	.icon-bar a {
+		float: left;
+		text-align: center; 
+		width: 20%;
+		padding: 12px 0; 
+		transition: all 0.3s ease; 
+		color: black; 
+		font-size: 36px; 
+	}
+article{
+	
+    background-color: #b8b8b8;
+    max-width: 85%;
+    max-height: 100%;
+	padding-left: 3%;
+	 
+}
+
+label{
+	text-align:right;
+	max-width: 100%;
+	float:left;
+	padding-right:10px;
+	color:black;
+	font-weight:900;
+	font-size:14pt;
+	vertical-align:text-top;
+}
+
+fieldset {
+	margin-bottom: 1%;
+	padding:1%;
+    max-width:40%;
+    max-height: 35%
+}
+	
+.inputButton{
+	font-size:14pt;
+	width: 100px; 
+	height: 30px;
+	font-size:12pt;
+	background-color: #EBF5FF;
+	color:black;
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-weight:900;
+	margin-top:50px;
+	box-shadow:2px 2px 2px black;
+}
+.formEntry{
+	text-align:left;
+	width:200px;
+	font-size:14pt;
+	color:black;
+}
+.money{
+	text-align:left;
+	font-size:12pt;
+	color:black;
+	width:275px;
+}
+button{
+    margin-left: 2%;
+}
+* {
+    box-sizing: border-box;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%; /* this is being overriden in tablet and desktop */
+    float:left; /* setting defaults for everything including tablet and desktop */
+    padding:15px; /* setting defaults for everything including tablet and desktop */
+
+}
+@media only screen and (min-width: 600px) {
+/* For tablets: */
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+/* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
